@@ -38,13 +38,13 @@ export const UserSearchSelector = (props: InputProps) => {
       isRequired={isRequired}
       source={source}
       reference="users"
-      perPage={50}
+      perPage={100}
       emp
     >
       <AutocompleteInput
         isRequired={isRequired}
         fullWidth
-        suggestionLimit={50}
+        suggestionLimit={100}
         filterToQuery={filterToQuery}
         inputText={inputText}
         optionText={<OptionRenderer />}
